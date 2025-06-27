@@ -1,0 +1,79 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "B02.tif",
+  "properties": {
+    "datetime": "2025-06-27T11:12:01.751408Z"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          106.52912319359258,
+          -78.4263762901599
+        ],
+        [
+          111.43704443732749,
+          -78.4603302917885
+        ],
+        [
+          111.4032050768468,
+          -77.4764879426196
+        ],
+        [
+          106.87405955595794,
+          -77.44526810037112
+        ],
+        [
+          106.52912319359258,
+          -78.4263762901599
+        ]
+      ]
+    ]
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "C:/Users/Sarvesh Shukla/Downloads/stac-items/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "C:/Users/Sarvesh Shukla/Downloads/stac-items/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "C:/Users/Sarvesh Shukla/Downloads/stac-items/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "C:/Users/Sarvesh Shukla/Downloads/stac-after/B02.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "data": {
+      "href": "https://raw.githubusercontent.com/sarvesh-sa/demo-thumbnail/main/B02.tif",
+      "type": "image/tiff; application=geotiff",
+      "roles": []
+    },
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/sarvesh-sa/demo-thumbnail/main/thumbnails/B02.png",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  },
+  "bbox": [
+    106.52912319359258,
+    -78.4603302917885,
+    111.43704443732749,
+    -77.44526810037112
+  ],
+  "stac_extensions": [],
+  "collection": "demo-collection"
+}
