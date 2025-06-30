@@ -1,0 +1,74 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "20250101_091002011000000_TCX8021.tif",
+  "properties": {
+    "datetime": "2025-06-30T11:27:17.232505Z"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          767690.0,
+          1941320.0
+        ],
+        [
+          767690.0,
+          1999050.0
+        ],
+        [
+          724020.0,
+          1999050.0
+        ],
+        [
+          724020.0,
+          1941320.0
+        ],
+        [
+          767690.0,
+          1941320.0
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    724020.0,
+    1941320.0,
+    767690.0,
+    1999050.0
+  ],
+  "links": [
+    {
+      "rel": "root",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "data": {
+      "href": "https://raw.githubusercontent.com/sarvesh-sa/demo-thumbnail/main/20250101_091002011000000_TCX8021.tif",
+      "type": "image/tiff; application=geotiff",
+      "roles": []
+    },
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/sarvesh-sa/demo-thumbnail/main/thumbnails/20250101_091002011000000_TCX8021.png",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  },
+  "stac_extensions": [],
+  "collection": "sentinel-2"
+}
