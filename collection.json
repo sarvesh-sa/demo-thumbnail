@@ -1,6 +1,6 @@
 {
   "type": "Collection",
-  "id": "demo-collection",
+  "id": "sentinel-2",
   "stac_version": "1.0.0",
   "description": "Collection for GitHub demo",
   "links": [
