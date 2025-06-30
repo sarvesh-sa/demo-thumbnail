@@ -2,16 +2,61 @@
   "type": "Collection",
   "id": "sentinel-2",
   "stac_version": "1.0.0",
-  "description": "Collection for GitHub demo",
+  "description": "Collection of Sentinel-2 STAC items with thumbnails",
   "links": [
     {
       "rel": "root",
-      "href": "./collection.json",
+      "href": "https://sarvesh-sa.github.io/demo-thumbnail/collection.json",
       "type": "application/json"
     },
     {
       "rel": "item",
-      "href": "./B02.tif/B02.tif.json",
+      "href": "./20250101_091002011000000_TCX8021.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20250101_091002013000000_TCX8021.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20250101_091002014000000_TCX8021.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20250101_091002015000000_TCX8021.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20250101_091002016000000_TCX8021.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20250101_091002017000000_TCX8021.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20250101_091002018000000_TCX8021.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20250101_091002019000000_TCX8021.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20250101_091002021000000_TCX8021.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "https://sarvesh-sa.github.io/demo-thumbnail/collection.json",
       "type": "application/json"
     }
   ],
@@ -19,18 +64,66 @@
     "spatial": {
       "bbox": [
         [
-          399960.0,
-          1290220.0,
-          509760.0,
-          1400020.0
+          724020.0,
+          1941320.0,
+          767690.0,
+          1999050.0
+        ],
+        [
+          534810.0,
+          1803900.0,
+          591610.0,
+          1876560.0
+        ],
+        [
+          487590.0,
+          1904250.0,
+          739660.0,
+          2051590.0
+        ],
+        [
+          641060.0,
+          1907680.0,
+          729490.0,
+          2008100.0
+        ],
+        [
+          182644.77364228747,
+          1472643.5265759963,
+          334714.7736422875,
+          1602153.5265759963
+        ],
+        [
+          378310.0,
+          1726040.0,
+          489590.0,
+          1797330.0
+        ],
+        [
+          466510.0,
+          1810590.0,
+          572200.0,
+          1951790.0
+        ],
+        [
+          596040.0,
+          1843600.0,
+          670410.0,
+          1939320.0
+        ],
+        [
+          784368.2588208052,
+          1650450.0,
+          920468.2588208052,
+          1789300.0
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2025-06-30T05:00:28.691143Z",
-          "2025-06-30T05:00:28.691143Z"
+          "2025-06-30T11:27:17.232505Z",
+          "2025-06-30T11:27:17.287653Z"
         ]
       ]
     }
