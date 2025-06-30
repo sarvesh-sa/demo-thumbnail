@@ -51,12 +51,12 @@
   ],
   "assets": {
     "data": {
-      "href": "https://sarvesh-sa.github.io/demo-thumbnail/B02.tif",
+      "href": "https://raw.githubusercontent.com/sarvesh-sa/demo-thumbnail/main/B02.tif",
       "type": "image/tiff; application=geotiff",
       "roles": []
     },
     "thumbnail": {
-      "href": "https://sarvesh-sa.github.io/demo-thumbnail/thumbnails/B02.png",
+      "href": "https://raw.githubusercontent.com/sarvesh-sa/demo-thumbnail/main/thumbnails/B02.png",
       "type": "image/png",
       "roles": [
         "thumbnail"
