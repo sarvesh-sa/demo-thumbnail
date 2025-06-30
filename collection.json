@@ -1,0 +1,39 @@
+{
+  "type": "Collection",
+  "id": "demo-collection",
+  "stac_version": "1.0.0",
+  "description": "Collection for GitHub demo",
+  "links": [
+    {
+      "rel": "root",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./B02.tif/B02.tif.json",
+      "type": "application/json"
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          399960.0,
+          1290220.0,
+          509760.0,
+          1400020.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2025-06-30T05:00:28.691143Z",
+          "2025-06-30T05:00:28.691143Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary"
+}
