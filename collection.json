@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "sentinel-2",
+  "id": "IMD_RAINFALL",
   "stac_version": "1.0.0",
-  "description": "Collection of Sentinel-2 STAC items with thumbnails",
+  "description": "Collection of IMD Rainfall items with thumbnails",
   "links": [
     {
       "rel": "root",
