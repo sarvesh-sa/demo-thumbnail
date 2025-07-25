@@ -1,12 +1,12 @@
 {
   "type": "Collection",
-  "id": "sentinel-2",
+  "id": "imd_rainfall",
   "stac_version": "1.0.0",
   "description": "Collection of Sentinel-2 STAC items with thumbnails",
   "links": [
     {
       "rel": "root",
-      "href": "https://sarvesh-sa.github.io/demo-thumbnail/collection.json",
+      "href": "https://sarvesh-sa.github.io/demo-thumbnail/imd_rainfall/collection.json",
       "type": "application/json"
     },
     {
@@ -56,7 +56,7 @@
     },
     {
       "rel": "self",
-      "href": "https://sarvesh-sa.github.io/demo-thumbnail/collection.json",
+      "href": "https://sarvesh-sa.github.io/demo-thumbnail/imd_rainfall/collection.json",
       "type": "application/json"
     }
   ],
