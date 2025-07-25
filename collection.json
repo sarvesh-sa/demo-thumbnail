@@ -1,84 +1,41 @@
 {
-  "type": "Collection",
-  "id": "IMD_RAINFALL",
   "stac_version": "1.0.0",
-  "description": "Collection of IMD Rainfall items with thumbnails",
-  "links": [
-    {
-      "rel": "root",
-      "href": "https://sarvesh-sa.github.io/demo-thumbnail/collection.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./20250101_091002011000000_TCX8021.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./20250101_091002013000000_TCX8021.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./20250101_091002014000000_TCX8021.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./20250101_091002015000000_TCX8021.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./20250101_091002016000000_TCX8021.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./20250101_091002017000000_TCX8021.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./20250101_091002018000000_TCX8021.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./20250101_091002019000000_TCX8021.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./20250101_091002021000000_TCX8021.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "self",
-      "href": "https://sarvesh-sa.github.io/demo-thumbnail/collection.json",
-      "type": "application/json"
-    }
-  ],
+  "id": "IMD_RAINFALL",
+  "type": "Collection",
+  "description": "IMD Rainfall data collection with daily TIFFs and thumbnails",
+  "license": "proprietary",
+  "links": [],
   "extent": {
     "spatial": {
       "bbox": [
-        [
-          182644.77364228747,
-          1472643.5265759963,
-          920468.2588208052,
-          2051590.0
-        ]
+        [81.23, 13.25, 87.15, 18.53]
       ]
     },
     "temporal": {
       "interval": [
-        [
-          "2025-06-30T11:27:17.232505Z",
-          "2025-06-30T11:27:17.287653Z"
-        ]
+        ["2025-01-01T00:00:00Z", null]
       ]
     }
   },
-  "license": "proprietary"
+  "item_assets": {
+    "data": {
+      "type": "image/tiff; application=geotiff",
+      "roles": ["data"]
+    },
+    "thumbnail": {
+      "type": "image/png",
+      "roles": ["thumbnail"]
+    }
+  },
+  "stac_extensions": [
+    "https://stac-extensions.github.io/item-assets/v1.0.0/schema.json"
+  ],
+  "keywords": ["rainfall", "IMD", "weather", "India"],
+  "providers": [
+    {
+      "name": "India Meteorological Department (IMD)",
+      "roles": ["producer", "licensor"],
+      "url": "https://mausam.imd.gov.in/"
+    }
+  ]
 }
