@@ -70,5 +70,5 @@
     }
   },
   "stac_extensions": [],
-  "collection": "sentinel-2"
+  "collection": "IMD_RAINFALL"
 }
